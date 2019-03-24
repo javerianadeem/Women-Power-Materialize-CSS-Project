@@ -23,7 +23,29 @@
       transition: all 0.5s;
       background-color: rgb(214, 52, 79) !important;
   }
+  .icon-bar-2 {
+    display: inline-block;
+    margin-top: 7%;
+    text-align: center;
+    padding-top: 2% ;
+    padding-bottom: 2% ;
+    display: none;
+}
   
+  /* Style the icon bar links */
+  .icon-bar-2 a {
+    text-align: center;
+    padding: 12px;
+    
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .icon-bar-2 :hover {
+      transition: all 0.5s;
+      background-color: rgb(214, 52, 79) !important;
+  }
+
 
 /*header */
 
@@ -259,6 +281,12 @@ a#collection-link1, a#collection-link2, a#collection-link3 {
     }
     .chat-popup {
         padding-top: 3%;
+    }
+    .icon-bar-2 {
+        display: block;
+    }
+    .icon-bar {
+        display: none;
     }
     
 }
